@@ -2,6 +2,8 @@
 
 将微信消息转发到 MaiBot，并将 MaiBot 的回复发送到微信。
 
+> 基于 [Angela459/WeMai](https://github.com/Angela459/WeMai) 改造，适配 MaiBot 1.0+ plugin-sdk 2.7.0。
+
 ## 依赖
 
 - `wxauto` - 微信自动化库
