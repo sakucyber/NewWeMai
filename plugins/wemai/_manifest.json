@@ -6,11 +6,11 @@
   "description": "将微信消息转发到 MaiBot，并将 MaiBot 的回复发送到微信",
   "author": {
     "name": "Sakucyber",
-    "url": "https://github.com/Sakucyber/NewWeMai"
+    "url": "https://github.com/sakucyber/NewWeMai"
   },
   "license": "MIT",
   "urls": {
-    "repository": "https://github.com/Sakucyber/NewWeMai"
+    "repository": "https://github.com/sakucyber/NewWeMai"
   },
   "host_application": {
     "min_version": "1.0.0",
