@@ -1,0 +1,9 @@
+[plugin]
+enabled = true
+config_version = "1.0.0"
+
+[wx]
+target_chats = []
+listen_all_if_empty = false
+excluded_chats = ["文件传输助手", "微信团队", "微信支付"]
+image_auto_download = true
