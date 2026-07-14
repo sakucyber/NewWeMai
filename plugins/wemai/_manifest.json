@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  "id": "com.wemai.wx-gateway",
+  "version": "1.0.0",
+  "name": "WeMai 微信网关",
+  "description": "将微信消息转发到 MaiBot，并将 MaiBot 的回复发送到微信",
+  "author": {
+    "name": "Sakucyber",
+    "url": "https://github.com/Sakucyber/NewWeMai"
+  },
+  "license": "MIT",
+  "urls": {
+    "repository": "https://github.com/Sakucyber/NewWeMai"
+  },
+  "host_application": {
+    "min_version": "1.0.0",
+    "max_version": "1.99.99"
+  },
+  "sdk": {
+    "min_version": "1.0.0",
+    "max_version": "2.99.99"
+  },
+  "dependencies": [],
+  "plugin_type": "gateway",
+  "display": {
+    "icon": {
+      "type": "lucide",
+      "value": "smartphone"
+    }
+  },
+  "capabilities": ["send_message"],
+  "i18n": {
+    "default_locale": "zh-CN"
+  }
+}
