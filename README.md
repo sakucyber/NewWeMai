@@ -1,4 +1,4 @@
-# WeMai - 微信分麦
+# NewWeMai - 微信分麦 🌟 (适配 MaiBot 1.0+)基于 [Angela459/WeMai](https://github.com/Angela459/WeMai) 
 
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python 3.8+">
@@ -7,14 +7,11 @@
 </div>
 
 ## ❗ 前排提醒
+- 🎉 **好消息**：本项目**已经完美适配 MaiBot 1.0 及以上版本**啦！不再需要担心旧版不兼容的问题～
+- 🔄 **传承有序**：本仓库是基于 [Angela459/WeMai](https://github.com/Angela459/WeMai) 的进一步维护与深度升级版本（追溯原作者：[aki66938](https://github.com/aki66938)）。
+- 💡 **Vibe Coding 加持**：本次重构与升级大量借助了 Vibe Coding 的辅助，让代码逻辑更丝滑、部署更省心！
 
-本项目暂时不适配新版麦麦，等我后续更新
-
-原仓库已被删除，本仓库是原仓库的进一步维护版本
-
-原作者：[aki66938](https://github.com/aki66938)
-
-## 📝 项目简介
+  ## 📝 项目简介
 
 **🚀 WeMai是一个微信消息双向转发系统**
 
@@ -66,8 +63,8 @@
    > 如果看完了前两步，你应该部署好了属于自己的redis数据库和maibot
    > 那么，可以开始部署和运行本项目了
    ```bash
-   git clone https://github.com/Angela459/WeMai.git
-   cd wemai
+   git clone [https://github.com/Angela459/WeMai.git](https://github.com/sakucyber/NewWeMai.git)
+   cd NewWeMai
    pip install -r requirements.txt
    cp .env.example .env
    # 编辑.env文件，配置你的环境变量
